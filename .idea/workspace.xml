@@ -2,28 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0950cf65-4dc7-47c7-a0ee-6f91a3d2f544" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/net/nowak/java8/lambdas/Chapter1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/net/nowak/java8/lambdas/Named.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/net/nowak/java8/lambdas/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/net/nowak/java8/lambdas/Student.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/net/nowak/java8/lambdas/Chapter1.java" afterPath="$PROJECT_DIR$/src/main/java/pl/net/nowak/java8/lambdas/Chapter1.java" />
     </list>
     <ignored path="Java8.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="0950cf65-4dc7-47c7-a0ee-6f91a3d2f544" time="1420980217456" ignored="false" />
     <file path="/README.md" changelist="0950cf65-4dc7-47c7-a0ee-6f91a3d2f544" time="1420980688701" ignored="false" />
     <file path="/File Header.txt.ft" changelist="0950cf65-4dc7-47c7-a0ee-6f91a3d2f544" time="1420985952789" ignored="false" />
-    <file path="/Dummy.txt" changelist="0950cf65-4dc7-47c7-a0ee-6f91a3d2f544" time="1421095562553" ignored="false" />
+    <file path="/Dummy.txt" changelist="0950cf65-4dc7-47c7-a0ee-6f91a3d2f544" time="1421177371415" ignored="false" />
     <file path="/Main.java" changelist="0950cf65-4dc7-47c7-a0ee-6f91a3d2f544" time="1421097131239" ignored="false" />
     <file path="/Person.java" changelist="0950cf65-4dc7-47c7-a0ee-6f91a3d2f544" time="1421096344528" ignored="false" />
     <file path="/Student.java" changelist="0950cf65-4dc7-47c7-a0ee-6f91a3d2f544" time="1421095660682" ignored="false" />
     <file path="/Teacher.java" changelist="0950cf65-4dc7-47c7-a0ee-6f91a3d2f544" time="1421095858450" ignored="false" />
     <file path="/fragment.java" changelist="0950cf65-4dc7-47c7-a0ee-6f91a3d2f544" time="1421096674805" ignored="false" />
     <file path="/Named.java" changelist="0950cf65-4dc7-47c7-a0ee-6f91a3d2f544" time="1421096309339" ignored="false" />
-    <file path="/Chapter1.java" changelist="0950cf65-4dc7-47c7-a0ee-6f91a3d2f544" time="1421097901647" ignored="false" />
+    <file path="/Chapter1.java" changelist="0950cf65-4dc7-47c7-a0ee-6f91a3d2f544" time="1421180726764" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,13 +107,8 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/net/nowak/java8/lambdas/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#466#658#0" expanded="true" />
-                <element signature="e#480#488#0" expanded="true" />
-                <element signature="e#647#648#0" expanded="true" />
-              </folding>
+            <state line="34" column="41" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -128,10 +116,14 @@
       <file leaf-file-name="Chapter1.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/net/nowak/java8/lambdas/Chapter1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="8" selection-start="814" selection-end="814" vertical-scroll-proportion="0.9293598">
+            <state line="177" column="49" selection-start="5492" selection-end="5492" vertical-scroll-proportion="0.5138122">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#384#393#0" expanded="true" />
+                <element signature="e#435#444#0" expanded="true" />
+                <element signature="e#4294#4440#0" expanded="true" />
+                <element signature="e#4429#4430#0" expanded="true" />
+                <element signature="e#5571#5727#0" expanded="true" />
+                <element signature="e#5712#5713#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -564,13 +556,12 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18010291" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3361921" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.81989706" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.66380787" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933104" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -579,6 +570,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933104" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -666,12 +658,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/net/nowak/java8/lambdas/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="52" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#466#658#0" expanded="true" />
-            <element signature="e#480#488#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -699,12 +686,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/net/nowak/java8/lambdas/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="4" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#466#658#0" expanded="true" />
-            <element signature="e#480#488#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -752,22 +734,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/net/nowak/java8/lambdas/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#466#658#0" expanded="true" />
-            <element signature="e#480#488#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-          </folding>
+        <state line="34" column="41" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/net/nowak/java8/lambdas/Chapter1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="8" selection-start="814" selection-end="814" vertical-scroll-proportion="0.9293598">
+        <state line="177" column="49" selection-start="5492" selection-end="5492" vertical-scroll-proportion="0.5138122">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#384#393#0" expanded="true" />
+            <element signature="e#435#444#0" expanded="true" />
+            <element signature="e#4294#4440#0" expanded="true" />
+            <element signature="e#4429#4430#0" expanded="true" />
+            <element signature="e#5571#5727#0" expanded="true" />
+            <element signature="e#5712#5713#0" expanded="true" />
           </folding>
         </state>
       </provider>
